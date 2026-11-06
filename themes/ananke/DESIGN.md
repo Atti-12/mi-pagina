@@ -1,244 +1,243 @@
 ---
-version: "2.13.0"
-name: "Ananke Hugo Theme"
-description: "Tachyons-first visual system for the Ananke Hugo theme, with Ananke defaults, Hugo configuration hooks, and theme-specific components layered on top."
+version: 2.13.0
+name: Ananke Hugo Theme
+description: Tachyons-first visual system for the Ananke Hugo theme, with Ananke
+  defaults, Hugo configuration hooks, and theme-specific components layered on
+  top.
 colors:
-  primary: "#000000"
-  secondary: "#555555"
-  tertiary: "#357EDD"
-  neutral: "#F4F4F4"
-  on-primary: "#FFFFFF"
-  on-secondary: "#FFFFFF"
-  on-tertiary: "#FFFFFF"
-  text: "#555555"
-  text-strong: "#111111"
-  text-muted: "#777777"
-  link: "#357EDD"
-  link-hover: "#000000"
-  surface: "#FFFFFF"
-  surface-subtle: "#F4F4F4"
-  surface-raised: "#FFFFFF"
-  border: "#CCCCCC"
-  border-subtle: "#EEEEEE"
-  overlay-dark: "#000000"
-  code-background: "#222222"
-  code-text: "#DDDDDD"
-  social-icon: "#BABABA"
-  social-icon-hover: "#6B7280"
-  black: "#000000"
-  near-black: "#111111"
-  dark-gray: "#333333"
-  mid-gray: "#555555"
-  gray: "#777777"
-  silver: "#999999"
-  light-silver: "#AAAAAA"
-  moon-gray: "#CCCCCC"
-  light-gray: "#EEEEEE"
-  near-white: "#F4F4F4"
-  white: "#FFFFFF"
-  dark-red: "#E7040F"
-  red: "#FF4136"
-  light-red: "#FF725C"
-  orange: "#FF6300"
-  gold: "#FFB700"
-  yellow: "#FFD700"
-  light-yellow: "#FBF1A9"
-  purple: "#5E2CA5"
-  light-purple: "#A463F2"
-  dark-pink: "#D5008F"
-  hot-pink: "#FF41B4"
-  pink: "#FF80CC"
-  light-pink: "#FFA3D7"
-  dark-green: "#137752"
-  green: "#19A974"
-  light-green: "#9EEBCF"
-  navy: "#001B44"
-  dark-blue: "#00449E"
-  blue: "#357EDD"
-  light-blue: "#96CCFF"
-  lightest-blue: "#CDECFF"
-  washed-blue: "#F6FFFE"
-  washed-green: "#E8FDF5"
-  washed-yellow: "#FFFCEB"
-  washed-red: "#FFDFDF"
-  bluesky: "#1185FE"
-  email: "#555555"
-  facebook: "#3B5998"
-  github: "#6CC644"
-  gitlab: "#FC6D26"
-  hackernews: "#FF4000"
-  instagram: "#E1306C"
-  keybase: "#3D76FF"
-  linkedin: "#0077B5"
-  medium: "#0077B5"
-  mastodon: "#6364FF"
-  pinterest: "#E60023"
-  reddit: "#FF4500"
-  rss: "#FF6F1A"
-  slack: "#E01E5A"
-  stackoverflow: "#F48024"
-  telegram: "#0088CC"
-  tiktok: "#FE2C55"
-  tumblr: "#35465C"
-  whatsapp: "#25D366"
-  xing: "#026466"
-  x-twitter: "#000000"
-  youtube: "#CD201F"
+  primary: '#000000'
+  secondary: '#555555'
+  tertiary: '#357EDD'
+  neutral: '#F4F4F4'
+  on-primary: '#FFFFFF'
+  on-secondary: '#FFFFFF'
+  on-tertiary: '#FFFFFF'
+  text: '#555555'
+  text-strong: '#111111'
+  text-muted: '#777777'
+  link: '#357EDD'
+  link-hover: '#000000'
+  surface: '#FFFFFF'
+  surface-subtle: '#F4F4F4'
+  surface-raised: '#FFFFFF'
+  border: '#CCCCCC'
+  border-subtle: '#EEEEEE'
+  overlay-dark: '#000000'
+  code-background: '#222222'
+  code-text: '#DDDDDD'
+  social-icon: '#BABABA'
+  social-icon-hover: '#6B7280'
+  black: '#000000'
+  near-black: '#111111'
+  dark-gray: '#333333'
+  mid-gray: '#555555'
+  gray: '#777777'
+  silver: '#999999'
+  light-silver: '#AAAAAA'
+  moon-gray: '#CCCCCC'
+  light-gray: '#EEEEEE'
+  near-white: '#F4F4F4'
+  white: '#FFFFFF'
+  dark-red: '#E7040F'
+  red: '#FF4136'
+  light-red: '#FF725C'
+  orange: '#FF6300'
+  gold: '#FFB700'
+  yellow: '#FFD700'
+  light-yellow: '#FBF1A9'
+  purple: '#5E2CA5'
+  light-purple: '#A463F2'
+  dark-pink: '#D5008F'
+  hot-pink: '#FF41B4'
+  pink: '#FF80CC'
+  light-pink: '#FFA3D7'
+  dark-green: '#137752'
+  green: '#19A974'
+  light-green: '#9EEBCF'
+  navy: '#001B44'
+  dark-blue: '#00449E'
+  blue: '#357EDD'
+  light-blue: '#96CCFF'
+  lightest-blue: '#CDECFF'
+  washed-blue: '#F6FFFE'
+  washed-green: '#E8FDF5'
+  washed-yellow: '#FFFCEB'
+  washed-red: '#FFDFDF'
+  bluesky: '#1185FE'
+  email: '#555555'
+  facebook: '#3B5998'
+  github: '#6CC644'
+  gitlab: '#FC6D26'
+  hackernews: '#FF4000'
+  instagram: '#E1306C'
+  keybase: '#3D76FF'
+  linkedin: '#0077B5'
+  medium: '#0077B5'
+  mastodon: '#6364FF'
+  pinterest: '#E60023'
+  reddit: '#FF4500'
+  rss: '#FF6F1A'
+  slack: '#E01E5A'
+  stackoverflow: '#F48024'
+  telegram: '#0088CC'
+  tiktok: '#FE2C55'
+  tumblr: '#35465C'
+  whatsapp: '#25D366'
+  xing: '#026466'
+  x-twitter: '#000000'
+  youtube: '#CD201F'
 typography:
   body:
-    fontFamily: "Avenir, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-    fontSize: "1rem"
-    fontWeight: "400"
-    lineHeight: "1.5"
+    fontFamily: Avenir, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: '1.5'
   body-serif:
-    fontFamily: "Georgia, Times, serif"
-    fontSize: "1rem"
-    fontWeight: "400"
-    lineHeight: "1.5"
+    fontFamily: Georgia, Times, serif
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: '1.5'
   display:
-    fontFamily: "Athelas, Georgia, serif"
-    fontSize: "3rem"
-    fontWeight: "400"
-    lineHeight: "1.25"
+    fontFamily: Athelas, Georgia, serif
+    fontSize: 3rem
+    fontWeight: '400'
+    lineHeight: '1.25'
   hero-title:
-    fontFamily: "Avenir, system-ui, sans-serif"
-    fontSize: "2.25rem"
-    fontWeight: "200"
-    lineHeight: "1.25"
+    fontFamily: Avenir, system-ui, sans-serif
+    fontSize: 2.25rem
+    fontWeight: '200'
+    lineHeight: '1.25'
   headline:
-    fontFamily: "Athelas, Georgia, serif"
-    fontSize: "3rem"
-    fontWeight: "400"
-    lineHeight: "1.25"
+    fontFamily: Athelas, Georgia, serif
+    fontSize: 3rem
+    fontWeight: '400'
+    lineHeight: '1.25'
   subheadline:
-    fontFamily: "Avenir, system-ui, sans-serif"
-    fontSize: "1.5rem"
-    fontWeight: "100"
-    lineHeight: "1.5"
+    fontFamily: Avenir, system-ui, sans-serif
+    fontSize: 1.5rem
+    fontWeight: '100'
+    lineHeight: '1.5'
   nav:
-    fontFamily: "Avenir, system-ui, sans-serif"
-    fontSize: "1rem"
-    fontWeight: "400"
-    lineHeight: "1.5"
+    fontFamily: Avenir, system-ui, sans-serif
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: '1.5'
   label-caps:
-    fontFamily: "Helvetica, Arial, sans-serif"
-    fontSize: "0.875rem"
-    fontWeight: "700"
-    lineHeight: "1.5"
-    letterSpacing: "0.1em"
+    fontFamily: Helvetica, Arial, sans-serif
+    fontSize: 0.875rem
+    fontWeight: '700'
+    lineHeight: '1.5'
+    letterSpacing: 0.1em
   code:
-    fontFamily: "Menlo, Consolas, Monaco, monospace"
-    fontSize: "0.875rem"
-    fontWeight: "400"
-    lineHeight: "2"
+    fontFamily: Menlo, Consolas, Monaco, monospace
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: '2'
 spacing:
-  none: "0"
-  xs: "0.25rem"
-  sm: "0.5rem"
-  md: "1rem"
-  lg: "2rem"
-  xl: "4rem"
-  xxl: "8rem"
-  xxxl: "16rem"
-  content-gutter: "1rem"
-  content-gutter-wide: "2rem"
-  section-y: "2rem"
-  section-y-large: "4rem"
+  none: '0'
+  xs: 0.25rem
+  sm: 0.5rem
+  md: 1rem
+  lg: 2rem
+  xl: 4rem
+  xxl: 8rem
+  xxxl: 16rem
+  content-gutter: 1rem
+  content-gutter-wide: 2rem
+  section-y: 2rem
+  section-y-large: 4rem
 rounded:
-  none: "0px"
-  sm: "0.125rem"
-  md: "0.25rem"
-  lg: "0.5rem"
-  xl: "1rem"
-  pill: "9999px"
+  none: 0px
+  sm: 0.125rem
+  md: 0.25rem
+  lg: 0.5rem
+  xl: 1rem
+  pill: 9999px
 components:
   body:
-    backgroundColor: "{colors.neutral}"
-    textColor: "{colors.text}"
-    typography: "{typography.body}"
+    backgroundColor: '{colors.neutral}'
+    textColor: '{colors.text}'
+    typography: '{typography.body}'
   site-header-with-image:
-    backgroundColor: "{colors.overlay-dark}"
-    textColor: "{colors.on-primary}"
-    typography: "{typography.hero-title}"
-    padding: "{spacing.xl}"
+    backgroundColor: '{colors.overlay-dark}'
+    textColor: '{colors.on-primary}'
+    typography: '{typography.hero-title}'
+    padding: '{spacing.xl}'
   site-header-plain:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.light-silver}"
-    typography: "{typography.hero-title}"
-    padding: "{spacing.lg}"
+    backgroundColor: '{colors.primary}'
+    textColor: '{colors.light-silver}'
+    typography: '{typography.hero-title}'
+    padding: '{spacing.lg}'
   site-navigation:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.on-primary}"
-    typography: "{typography.nav}"
-    padding: "{spacing.md}"
+    backgroundColor: '{colors.primary}'
+    textColor: '{colors.on-primary}'
+    typography: '{typography.nav}'
+    padding: '{spacing.md}'
   site-footer:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.light-silver}"
-    typography: "{typography.nav}"
-    padding: "{spacing.md}"
+    backgroundColor: '{colors.primary}'
+    textColor: '{colors.light-silver}'
+    typography: '{typography.nav}'
+    padding: '{spacing.md}'
   content-card:
-    backgroundColor: "{colors.surface-raised}"
-    textColor: "{colors.text}"
-    typography: "{typography.body}"
-    padding: "{spacing.lg}"
+    backgroundColor: '{colors.surface-raised}'
+    textColor: '{colors.text}'
+    typography: '{typography.body}'
+    padding: '{spacing.lg}'
   summary-card:
-    backgroundColor: "{colors.surface-raised}"
-    textColor: "{colors.text}"
-    typography: "{typography.body}"
-    padding: "{spacing.lg}"
+    backgroundColor: '{colors.surface-raised}'
+    textColor: '{colors.text}'
+    typography: '{typography.body}'
+    padding: '{spacing.lg}'
   article-title:
-    textColor: "{colors.text-strong}"
-    typography: "{typography.headline}"
+    textColor: '{colors.text-strong}'
+    typography: '{typography.headline}'
   article-body:
-    backgroundColor: "{colors.surface-subtle}"
-    textColor: "{colors.text}"
-    typography: "{typography.body-serif}"
+    backgroundColor: '{colors.surface-subtle}'
+    textColor: '{colors.text}'
+    typography: '{typography.body-serif}'
   read-more-button:
-    backgroundColor: "{colors.light-gray}"
-    textColor: "{colors.text}"
-    rounded: "{rounded.md}"
-    padding: "{spacing.sm}"
+    backgroundColor: '{colors.light-gray}'
+    textColor: '{colors.text}'
+    rounded: '{rounded.md}'
+    padding: '{spacing.sm}'
   read-more-button-hover:
-    backgroundColor: "{colors.moon-gray}"
-    textColor: "{colors.text-strong}"
-    rounded: "{rounded.md}"
-    padding: "{spacing.sm}"
+    backgroundColor: '{colors.moon-gray}'
+    textColor: '{colors.text-strong}'
+    rounded: '{rounded.md}'
+    padding: '{spacing.sm}'
   tag-pill:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.black}"
-    rounded: "{rounded.pill}"
-    padding: "{spacing.md}"
+    backgroundColor: '{colors.surface}'
+    textColor: '{colors.black}'
+    rounded: '{rounded.pill}'
+    padding: '{spacing.md}'
   contact-form:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.black}"
-    typography: "{typography.body}"
+    backgroundColor: '{colors.surface}'
+    textColor: '{colors.black}'
+    typography: '{typography.body}'
   form-input:
-    backgroundColor: "{colors.light-gray}"
-    textColor: "{colors.black}"
-    padding: "{spacing.md}"
+    backgroundColor: '{colors.light-gray}'
+    textColor: '{colors.black}'
+    padding: '{spacing.md}'
   form-submit:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.on-primary}"
-    padding: "{spacing.md}"
+    backgroundColor: '{colors.primary}'
+    textColor: '{colors.on-primary}'
+    padding: '{spacing.md}'
   code-block:
-    backgroundColor: "{colors.code-background}"
-    textColor: "{colors.code-text}"
-    typography: "{typography.code}"
-    padding: "{spacing.lg}"
+    backgroundColor: '{colors.code-background}'
+    textColor: '{colors.code-text}'
+    typography: '{typography.code}'
+    padding: '{spacing.lg}'
   contextual-menu:
-    backgroundColor: "{colors.light-gray}"
-    textColor: "{colors.text}"
-    padding: "{spacing.md}"
+    backgroundColor: '{colors.light-gray}'
+    textColor: '{colors.text}'
+    padding: '{spacing.md}'
   social-link:
-    textColor: "{colors.social-icon}"
-    size: "32px"
+    textColor: '{colors.social-icon}'
+    size: 32px
   social-link-hover:
-    textColor: "{colors.social-icon-hover}"
-    size: "32px"
+    textColor: '{colors.social-icon-hover}'
+    size: 32px
 ---
-
-<!-- markdownlint-disable MD041 -->
-
 ## Overview
 
 Ananke is a production-ready Hugo starter theme whose visual system is intentionally **Tachyons-first**. The default design language is fast, responsive, accessible, and utility-driven: templates compose Tachyons classes directly, while Hugo parameters let sites override key classes and append custom CSS.
